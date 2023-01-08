@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  background-color: #011f4b;
+  padding: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.payment-reminder {
+  text-align: center;
+  color: #d98b19;
+  font-weight: lighter;
+  font-size: 4rem;
+}
+
+.payment-content {
+  font-size: 2.5rem;
+  color: #efefef;
+  padding: 25px;
+}
+
+.payment-content2 {
+  font-size: 2.5rem;
+  color: #b3cde0;
+  margin: 1em auto;
+  text-align: center;
+}
+
+.disclaimer {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #b3cde0;
+}
+
+.gcash-details {
+  font-weight: 500;
+  color: #efefef;
+  font-size: 2rem;
+  text-align: center;
+  margin: 25px auto;
+}
+
+.company-name {
+  text-align: center;
+  font-size: 10rem;
+}
+
+.css-3d-text {
+  margin: 50px auto;
+  text-align: center;
+  font-family: Garamond, serif;
+  line-height: 1em;
+  color: #b3cde0;
+  font-style: italic;
+  font-size: 126px;
+  text-shadow: 0px 0px 0 rgb(132, 132, 132), 1px 1px 0 rgb(24, 24, 24),
+    2px 2px 1px rgba(0, 0, 0, 0.55), 2px 2px 1px rgba(0, 0, 0, 0.5),
+    0px 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 961px) {
+  .payment-reminder {
+    font-size: 4rem;
+  }
+
+  .payment-content {
+    font-size: 2.5rem;
+  }
+
+  .payment-content2 {
+    font-size: 2.5rem;
+  }
+
+  .disclaimer {
+    font-size: 1.5rem;
+  }
+
+  .gcash-details {
+    font-size: 2rem;
+  }
+}
