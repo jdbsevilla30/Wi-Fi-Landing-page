@@ -58,7 +58,7 @@ body {
     0px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 640px) {
   body {
     padding: 20px;
   }
@@ -82,5 +82,45 @@ body {
 
   .disclaimer {
     font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1200px) {
+  body {
+    padding: 30px;
+  }
+
+  .payment-reminder {
+    text-align: center;
+    color: #d98b19;
+    font-weight: lighter;
+    font-size: 4rem;
+  }
+
+  .payment-content {
+    font-size: 2.5rem;
+    color: #efefef;
+    padding: 25px;
+  }
+
+  .payment-content2 {
+    font-size: 2.5rem;
+    color: #b3cde0;
+    margin: 1em auto;
+    text-align: center;
+  }
+
+  .disclaimer {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #b3cde0;
+  }
+
+  .gcash-details {
+    font-weight: 500;
+    color: #efefef;
+    font-size: 2rem;
+    text-align: center;
+    margin: 25px auto;
   }
 }
