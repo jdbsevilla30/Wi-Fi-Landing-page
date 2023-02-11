@@ -5,9 +5,30 @@
 
 body {
   font-size: 16px;
-  background-color: #011f4b;
+  background-color: #445b7d;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+.logo{
+  display: block;
+ width: 50%;
+margin: 0 auto;
+
+}
+
+.gcash{
+ 
+  display: block;
+ width: 30%;
+  margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*ALIGN OUR TEXT TO CENTER*/
