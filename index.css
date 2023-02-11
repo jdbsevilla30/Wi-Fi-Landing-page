@@ -19,17 +19,24 @@ margin: 0 auto;
 
 .gcash{
  
-  display: block;
+
  width: 30%;
   margin: 0 auto;
 }
 
+
+.maya {
+  width: 47%;
+  margin: 0 auto;
+}
 .flex{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+
 
 /*ALIGN OUR TEXT TO CENTER*/
 .payment-reminder,
