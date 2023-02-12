@@ -5,9 +5,15 @@
 
 body {
   font-size: 16px;
-  background-color: #445b7d;
+
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+
+
+    background-image: url("backgroundimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .logo{
@@ -49,19 +55,19 @@ margin: 0 auto;
 /*White Color*/
 .payment-content,
 .gcash-details {
-  color: #efefef;
+  color: black;
 }
 
 /*Yellow Color*/
 .payment-reminder {
-  color: #d98b19;
+  color: black;
 }
 
 /*light blue color*/
 .payment-content2,
 .disclaimer,
 .company-name {
-  color: #b3cde0;
+  color: black;
 }
 
 .company-name {
