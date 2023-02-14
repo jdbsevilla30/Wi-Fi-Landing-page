@@ -5,12 +5,15 @@
 
 body {
   font-size: 16px;
+
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+
+
     background-image: url("backgroundimage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
+ 
 }
 
 .logo{
@@ -49,41 +52,22 @@ margin: 0 auto;
   text-align: center;
 }
 
-/*typography color*/
+/*White Color*/
+.payment-content,
+.gcash-details {
+  color: black;
+}
 
 /*Yellow Color*/
 .payment-reminder {
-  color: rgb(224, 24, 24);
-}
-
-/*White Color*/
-.payment-content{
   color: black;
 }
 
-.payment-content2{
-  color: blue;
-}
-
-.gcashtext{
-  color: #46a0e0;
-}
-
-.mayatext{
-  color: #33f09e
-}
-
-.gcashnumber{
+/*light blue color*/
+.payment-content2,
+.disclaimer,
+.company-name {
   color: black;
-}
-
-.gcashname{
-  color: blue;
-}
-
-
-.disclaimer{
-  color: red;
 }
 
 .company-name {
@@ -97,7 +81,13 @@ margin: 0 auto;
     0px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
+.gcashtext{
+  color: #46a0e0;
+}
 
+.mayatext{
+  color: #33f09e
+}
 
 
 @media (min-width: 320px) and (max-width: 481px) {
